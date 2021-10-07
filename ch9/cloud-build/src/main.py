@@ -16,7 +16,7 @@ app_file.close()
 @app.route('/')
 def hello():
     """Return some very basic HTML"""
-    return f'<h1>Hello There JVC!</h1><p><img src={custom_env_var} width="500" height="300"></p><p>Here is the content of my app.yaml: <br/><br/><i>{app_content}</i>'
+    return f'<h1>Hello There JVC Jajaja!</h1><p><img src={custom_env_var} width="500" height="300"></p><p>Here is the content of my app.yaml: <br/><br/><i>{app_content}</i>'
 
 
 if __name__ == '__main__':
